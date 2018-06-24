@@ -35,12 +35,12 @@
         </div> 
         <div class="container-fluid">
             <div id="google-map" class="google-map">
-
             </div>
-            <div id="output" class="out-put">
-                
-            </div>
+            <div id="output" class="output"></div>
         </div>
     </main>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&libraries=places"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
